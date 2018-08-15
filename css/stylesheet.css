@@ -1,0 +1,116 @@
+a:hover{
+    color: #CC9E61;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.nb-color{
+    background-color: #CC9E61;
+    font-family: 'Coming Soon', cursive;
+    color: black;
+}
+
+footer{
+    font-family: 'Coming Soon', cursive;
+    background-color: #541F14;
+    color: #CC9E61;
+    text-align: center;
+    max-height:150px;
+}
+
+h1{
+    background-color: #541F14;
+    font-family: 'Reenie Beanie', cursive;
+    color: #CC9E61;
+    text-align: center;
+    margin: 0;
+}
+
+.card-section{
+    background-color: #938172;
+}
+
+.card{
+    background-color: #541F14;
+    padding: 10px;
+}
+
+.card-title{
+    font-family: 'Reenie Beanie', cursive;
+    color: #CC9E61;
+    font-size: 3em;
+    
+}
+
+.card-text{
+    font-family: 'Coming Soon', cursive;
+    color: #D8D8C0;
+    
+}
+
+.card-img{
+    margin-bottom: 3em;
+}
+
+.btn{
+    background-color: #CC9E61;
+    color: black;
+    font-family: 'Coming Soon', cursive;
+}
+
+.ipad-section{
+    background-color: #938172;
+    margin: 0;
+}
+
+body{
+    background-color: #938172;
+}
+
+.payment-form{
+    font-family: 'Coming Soon', cursive;
+    
+}
+
+.payment-header{
+    background-color: #541F14;
+    font-family: 'Reenie Beanie', cursive;
+    color: #CC9E61;
+    text-align: center;
+    margin: auto;
+    
+}
+.nb-color{
+    background-color: #CC9E61;
+    font-family: 'Coming Soon', cursive;
+    color: black;
+}
+
+
+@media(max-width:576px){ 
+    .about-us{
+        display:none;
+    }
+     
+}
+
+@media(min-width: 769px){
+    .ipad-section{
+        display:none;
+    }
+}
+
+@media(max-width:768px){
+    
+    .card-section{
+        display: none;
+    }
+    
+    .specials-button{
+        display: none;
+    }
+}

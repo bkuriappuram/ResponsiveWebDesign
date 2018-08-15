@@ -1,0 +1,348 @@
+/* Styles page for room reservations page */
+
+/*Reservation Page*/
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #938172;
+    margin: auto;
+}
+
+.reservation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: center;
+    background-color: #541F14;
+    max-width: 85%;
+    margin: auto;
+    
+}
+.page-title {
+    display: flex;
+    background-color: #541F14;
+    font-family: 'Coming Soon';
+    justify-content: center;
+    color:#CC9E61;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+.room-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content:center;
+    width: 50%;
+    margin: auto;
+}
+.room-availability {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.customer-policy-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.customer-info {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: auto;
+}
+.policy {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 45%;
+    background-color: #541F14;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.room-text-desc {
+    font-family: 'Coming Soon', cursive;
+    font-size: 15px;
+    color: #c4c4c4;
+}
+.room-text-avail {
+    font-family: 'Coming Soon', cursive;
+    font-size: 15px;
+    color: #c4c4c4;
+}
+.beer-text-desc {
+    font-family: 'Coming Soon', cursive;
+    font-size: 15px;
+    color: #c4c4c4;
+}
+.product-header {
+    color: #CC9E61;
+    font-family: 'Coming Soon', cursive;
+    font-size: 20px;
+}
+#time-header {
+    color: #CC9E61;
+    font-family: 'Coming Soon', cursive;
+    font-size: 20px;
+    padding:20px;
+}
+.hr {
+    width:100%;
+    background-color: #CC9E61;
+}
+#desc-marg {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+#auto-marg {
+    margin: auto;
+}
+.info-styling {
+    width: 100%;
+    font-family: 'Coming Soon', cursive;
+    text-align: center;
+}
+#info-header {
+    display: block;
+    margin: auto;
+    background-color: #541F14;
+    padding: 10px;
+    color: #CC9E61;
+    font-family: 'Coming Soon', cursive;
+    
+}
+#sand {
+    background-color: #CC9E61;
+    font-weight: bold;
+}
+.reservation-img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+#policy-header {
+    color: #CC9E61;
+    padding: 10px;
+    font-family: 'Coming Soon', cursive;
+    margin: auto;
+}
+.details-button {
+    display: block;
+    text-align: center;
+    height: 5%;
+    width:25%;
+    margin: auto;
+}
+#policy-details {
+    font-family: 'Coming Soon', cursive;
+    
+       
+}
+.mobile-res-button {
+    display: none;
+    background-color: #CC9E61;
+    width:50%;
+    height: 5%;
+    margin: auto;
+    color: black;
+    margin-bottom: 20px;
+}
+.submit {
+    display: block;
+    background-color: #CC9E61;
+    width:50%;
+    height: 5%;
+    margin: auto;
+}
+
+/*Order-To-Go*/
+.beer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: center;
+    background-color: #541F14;
+    max-width: 70%;
+    margin: auto;
+}
+.beer-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content:center;
+    width: 50%;
+    margin: auto;
+}
+.beer-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.order-title {
+    display: flex;
+    background-color: #541F14;
+    font-family: 'Coming Soon';
+    justify-content: center;
+    color:#CC9E61;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.customer-info-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 37%;
+    margin: auto;
+    
+}
+.beer-img {
+    margin: auto;
+    max-height: 75%;
+    max-width: 75%;
+}
+.customer-info-styling {
+    width: 100%;
+    font-family: 'Coming Soon', cursive;
+    text-align: center;
+}
+.customer-info-header {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    background-color: #541F14;
+    padding: 10px;
+    color: #CC9E61;
+    font-family: 'Coming Soon', cursive;
+    margin-top: 30px;
+}
+.oz-header {
+    color: #CC9E61;
+    font-family: 'Coming Soon', cursive;
+}
+
+
+
+
+
+
+
+/*footer*/
+.footer {
+    display: flex;
+    background: #541F14;
+}
+.footer a {
+    color: #CC9E61;
+    font-size: 50px;
+    padding: 20px;
+}
+
+/*responsiveness*/
+
+@media screen and (max-width: 768px) {
+    .policy {
+        display: none;
+    }
+    .reservation-img {
+        max-height: 75%;
+        max-width: 75%;
+    }
+    .customer-info {
+        margin-top: 30px;
+    }
+    input[type="checkbox"] {
+        width:30px;
+        height:30px;
+}
+    .beer-text-desc {
+        display: none;
+    }
+    .reservation-container {
+        max-width: 100%;
+    }
+    .page-title {
+        width: 100%;
+    }
+    .beer-container {
+        max-width: 100%;
+    }
+    .order-title {
+        width:100%;
+    }
+    .customer-info-styling {
+        padding: 20px;
+    }
+    .info-styling {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 481px){
+    .reservation-img {
+        display: none;
+    }
+    .room-container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .room-text-desc {
+        display: none;
+    }
+    .reservation-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    #time-header {
+        display: none;
+    }
+    .room-text-avail {
+        margin: auto;
+        font-size: 13px
+    }
+    .room-availability {
+        width:100%;
+    }
+    .mobile-res-button {
+        display: block;
+    }
+    .beer-img {
+        display: none;
+    }
+    .customer-info-container {
+        width: 63%;
+    }
+    .customer-info-header {
+        font-size:20px;
+    }
+    .page-title {
+        margin-top: 0;
+    }
+    .beer-description {
+        width:33%;
+    }
+    .beer-price {
+        width: 67%;
+    }
+}
